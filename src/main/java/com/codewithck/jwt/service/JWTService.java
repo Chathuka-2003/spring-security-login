@@ -11,7 +11,6 @@ import java.util.Date;
 @Service
 public class JWTService {
 
-    //Inject secret key
     private final SecretKey secretKey;
 
     public JWTService(){
