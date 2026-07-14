@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    //Inject jwt service
     private final JWTService jwtService;
 
     public HomeController(JWTService jwtService) {
